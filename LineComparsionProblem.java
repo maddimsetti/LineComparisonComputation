@@ -32,7 +32,7 @@ public class LineComparsionProblem {
        System.out.printf("Y coordinate is %.2f\n",midPoint1y);
       
        Length1 = Math.sqrt(Math.pow((midPoint1x - x1),2) + Math.pow((midPoint1y - y1),2));
-       System.out.println("Length of a Line between coordinate and Mid_Point of "+"("+x1+","+y1+"),"+"("+midPoint1x+","+midPoint1y+") is" +Length1);
+       System.out.println("Length of a Line between one coordinate and Mid_Point of "+"("+x1+","+y1+"),"+"("+midPoint1x+","+midPoint1y+") is" +Length1);
        
        System.out.println("enter the value of a1\n");
        a1=sc.nextInt();
@@ -54,7 +54,7 @@ public class LineComparsionProblem {
        System.out.printf("Y coordinate is %.2f\n",midPoint2y);
        
        Length2 = Math.sqrt(Math.pow((midPoint2x - a1),2) + Math.pow((midPoint2y - b1),2));
-       System.out.println("Length of a Line between coordinate and Mid_Point of "+"("+a1+","+b1+"),"+"("+midPoint2x+","+midPoint2y+") is" +Length2);
+       System.out.println("Length of a Line between one coordinate and Mid_Point of "+"("+a1+","+b1+"),"+"("+midPoint2x+","+midPoint2y+") is" +Length2);
 
        String str1 = String.valueOf(Length1);
        String str2 = String.valueOf(Length2);
