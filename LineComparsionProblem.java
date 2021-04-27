@@ -58,8 +58,12 @@ public class LineComparsionProblem {
 
        String str1 = String.valueOf(Length1);
        String str2 = String.valueOf(Length2);
+       
        System.out.println(Length1 + " .equals " + Length2
                + ": " + str1.equals(str2));
+       
+       System.out.println(Length1 + " .compareTo " + Length2
+               + ": " + str1.compareTo(str2));
       
 	}
 }
